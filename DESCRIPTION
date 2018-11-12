@@ -1,0 +1,12 @@
+Package: callmice
+Type: Package
+Title: Importing mice functions
+Version: 0.1.0
+Authors@R: c(person("Stef", "van Buuren", role = c("aut","cre"),
+    email = "stef.vanbuuren@tno.nl"))
+Maintainer: Stef van Buuren <stef.vanbuuren@tno.nl>
+Description: This package tests and demonstrates functionality of the
+    mice package in your own package.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
