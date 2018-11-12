@@ -8,7 +8,8 @@
 #'@return An object of class \code{mids}
 #'@seealso \code{\link[mice]{mice}}
 #'@examples
-#'imp <- myimpute()
+#'imp1 <- myimpute(m = 2)
+#'imp2 <- myimpute(m = 2, method = "norm")
 #'@export
 myimpute <- function(data = mice::nhanes, ...) {
   mice(data = data, ...)

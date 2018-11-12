@@ -1,0 +1,44 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+options(width = 60, digits = 3)
+```
+
+# callmice
+
+## Importing `mice` functionality into your own package
+
+The [`mice`](https://cran.r-project.org/package=mice) package
+implements a method to deal with missing data. The `callmice` 
+pachage tests and demonstrates how to incorporate functionality
+from the `mice` package into your own package.
+
+## Installation
+
+The `callmice` package can be installed from GitHub as follows: 
+
+```{r eval = FALSE}
+install.packages("devtools")
+devtools::install_github(repo = "stefvanbuuren/callmice")
+```
+
+
+## Minimal example
+
+```{r}
+library(callmice)
+
+imp <- myimpute(m = 2, print = FALSE)
+imp
+```

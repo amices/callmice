@@ -7,7 +7,7 @@ Authors@R: c(person("Stef", "van Buuren", role = c("aut","cre"),
 Maintainer: Stef van Buuren <stef.vanbuuren@tno.nl>
 Description: This package tests and demonstrates functionality of the
     mice package in your own package.
-Imports: mice
+Imports: mice (>= 3.3.3)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

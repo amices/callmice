@@ -19,7 +19,8 @@ This is an example function in your own package.
 It calls `mice` and its underlying functions.
 }
 \examples{
-imp <- myimpute()
+imp1 <- myimpute(m = 2)
+imp2 <- myimpute(m = 2, method = "norm")
 }
 \seealso{
 \code{\link[mice]{mice}}
